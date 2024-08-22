@@ -27,12 +27,12 @@ position: relative;
 .claro{
   font-size: 8px;
   font-variant: small-caps;
-  color: #e9d9d9;
+  color: #181717;
   height: 40px;
   width: 55px; 
-  background-color: #4D6D63 ;
+  background-color: #9fb4ad ;
   border-radius: 20px black ;
-  box-shadow: #4D6D63 5px;
+  box-shadow: #8f9795 5px;
   margin-left: 20px;
   margin-top: 10px;
 }
@@ -277,9 +277,15 @@ h5{
     text-align: right;
   }
   hr{
-    border: none;
-  height: 4px;
-  background-image: linear-gradient(to right, #FF00FF, #00FFFF, #FF00FF); /* Degradado retro */
-  box-shadow: 0 0 10px #00FFFF, 0 0 20px #FF00FF; /* Efecto de neón */
-  margin: 30px 0;
-} 
+  
+      border-top: transparent;
+      border-right: transparent;
+      border-left: transparent;
+      border-bottom: 15px dotted #A6C1B9;
+      width: 23%;
+      margin-left: 38%;
+  }
+  h3{
+    text-align: center;
+    font-size: 15px;
+  }

@@ -5,8 +5,13 @@
   }
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
   
-  
-  
+  /* Paleta de colores usada 
+  702873 finlandes;
+  287271 mirto verde;
+	#fdedd8 naranja claro;
+  bb4430 rojo persa;
+*/
+
   body{
   background-color: #070707;
   margin-bottom: 0%;
@@ -64,7 +69,7 @@
   
   .form-register {
       width: 600px;
-      background:#1b1b1b;
+      background:#242323;
       padding: 40px;
       margin: auto;
       margin-top: 50px;
@@ -119,7 +124,7 @@
       transform: translate(8%, 8%);
     }
     .controls1:hover{
-      background-color:#8d9995 ;
+      background-color:#a0a5a3 ;
     }
     .field{
       align-content: center;
@@ -151,20 +156,12 @@
     }
     
     .form-register a:hover {
-      color: rgb(98, 103, 112);
+      color: rgb(139, 142, 148);
       text-decoration: underline;
       border-radius: 7px;
     }
     
-    .form-register .botons {
-      width: 100%;
-      background: #6084d3;
-      border: none;
-      padding: 12px;
-      color: white;
-      margin: 16px 0;
-      font-size: 16px;
-    }
+   
     .de{
       text-align: center;
       font-size: larger;
@@ -175,22 +172,7 @@
       margin-left: 2%;
       margin-bottom: 1%;
     }
-    .buyo{
-      width: 100%;
-        margin-bottom: 49px;
-    margin-top: 40px;
-        margin-left: 48%;
-        padding: 5px;
-        background: rgb(28, 82, 143);
-        outline: none;
-        color:rgb(241, 248, 248);
-        cursor: pointer;
-        font-size: 12px;
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        text-align: center;
-        border-radius: 10px;
-        transition: 0,3s;
-    }
+    
     @media(max-width: 400px){
   .form-register{
     width:90%;
@@ -396,6 +378,12 @@
       .buy:hover{
         transform: scale(1.1);
       }
+      .boton1:hover{
+        transform: scale(1.1);
+      }
+      .boton2:hover{
+        transform: scale(1.1);
+      }
         
   .controls placeholder{
       text-align: right;
@@ -474,9 +462,27 @@
      }
      hr{
         margin-left: 38%;
-        border-top: transparent;
-        border-right: transparent;
-        border-left: transparent;
-        border-bottom: 15px square  #cfd6d4;
-        width: 23%;
+        color: #000;
+        width: 25%;
     } 
+    .veni{
+      display: flex;
+    }
+    .error{
+      text-align: center;
+      margin-bottom: 15px;
+      margin-top: -50px;
+      font-size: large;
+    }
+    .claro{
+      font-size: 8px;
+      font-variant: small-caps;
+      color: #e9d9d9;
+      height: 40px;
+      width: 55px; 
+      background-color: #141414 ;
+      border-radius: 20px black ;
+      box-shadow: #4D6D63 5px;
+      margin-left: 20px;
+      margin-top: 10px;
+    }

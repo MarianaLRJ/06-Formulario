@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-   <!-- <link rel="stylesheet"  href="./Css/estilos.css"> -->
- <!-- <link rel="stylesheet" href="./Css/estilos-futuro.css">  -->
-  <link rel="stylesheet" href="Css/estilos-retro.css">
+    <title>MarianadeOliveira-MaximilianoTeves</title>
+   <link rel="stylesheet"  href="./Css/estilos.css"> 
+   <!-- <link rel="stylesheet" href="./Css/estilos-futuro.css"> -->
+  <!--  <link rel="stylesheet" href="Css/estilos-retro.css">-->
     
 </head>
 <body id="fondo">
@@ -15,9 +15,8 @@
     </h1>
     <button type="button" class="claro" onclick="modoClaro()" id="boton"> Cambiar a modo claro</button>
   </div>
-    
   <section class="box">
-    <form action="https://formsubmit.co/marianadeoliveira384@gmail.com"  class="formu1" method="post">
+    <form action="https://formsubmit.co/marianadeoliveira384@gmail.com" id="formulario" class="formu1" method="post">
      
       <section class="form-register">
         <div class="datos">
@@ -314,7 +313,8 @@
           <input type="radio" class= "blue" name="sexo" id="otro">
           <label for="mujer">Otro </label>
          </div>
-    
+         <button class="btn btn-primary mt-2" type="submit">Recordar</button>
+         <h3><h3 id="respuesta" class="text-center fw-light">
       </section>
       <hr>
     </form>
@@ -392,7 +392,7 @@
       *:Campo obligatorio.
     </h5>
   <div class="botones">
-    <a  class="afiliarse"><input type="submit" class="boton1" onclick= 'return afiliarse();' value="Afiliarse"></a>
+    <a  href="./Pages/Afiliación.html" class="afiliarse" ><input type="submit" class="boton1" onclick= 'return afiliarse();' value="Afiliarse"></a>
     
     <a class="buy"><input type="reset" class="boton2" value="Restablecer"></a> 
   </div>

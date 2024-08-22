@@ -254,3 +254,24 @@ hr{
     border-top: 3px double #8c8c8c;
     margin: 20px 0;
 }
+.veni{
+    display: flex;
+  }
+  .error{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: -80px;
+    font-size: large;
+  }
+  .claro{
+    font-size: 8px;
+    font-variant: small-caps;
+    color: #181717;
+    height: 40px;
+    width: 55px; 
+    background-color: #bac9c4 ;
+    border-radius: 20px black ;
+    box-shadow: #4D6D63 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }

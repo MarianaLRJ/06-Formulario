@@ -42,14 +42,20 @@ const modoClaro = () => {
 
     boton.innerHTML = "Cambiar a modo oscuro";
 
-    let oculto = document.getElementById("oculto").value;
-    
-    alert(oculto);
-
-    let archivo = document.getElementById("archivo")
-
-    archivo.style.backgroundColor = "white";
-
 
 }
+const formulario = document.querySelector("#formulario");
+formulario.addEventListener( "submit", validarFormulario )
 
+function validarFormulario(e){
+    e.preventDefault();
+    const nombre = document.querySelector("#nombre").value
+    const apellido = document.querySelector("#apellido").value
+    const documento = document.querySelector("#documento").value
+
+    const respuesta = document.getElementById("respuesta");
+    respuesta.textContent = `Hola ${nombre}, chequea tus datos! TU APELLIDO ES: ${apellido} TU DOCUMENTO ES: ${documento}`
+}
+
+let dado = Number((Math.random() * 6).toFixed(0));
+console.log(dado)
