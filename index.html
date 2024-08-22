@@ -8,10 +8,11 @@
  <!-- <link rel="stylesheet" href="./Css/estilos-futuro.css">  -->
     
 </head>
-<body>
+<body id="fondo">
   <div class="veni">
     <h1>Vení al Gym! 💪
     </h1>
+    <button type="button" class="claro" onclick="modoClaro()" id="boton"> Cambiar a modo claro</button>
   </div>
     
   <section class="box">
@@ -27,11 +28,11 @@
         <h5>
          Nombre:*
         </h5>
-        <input class="controls" type="text" name="nombres" id="nombres" required>
+        <input class="controls" type="text" name="nombres" id="nombre" required>
         <h5>
           Apellido:*
          </h5>
-        <input class="controls" type="text" name="apellidos" id="apellidos" required>
+        <input class="controls" type="text" name="apellidos" id="apellido" required>
         <h5>
           Documento:*
          </h5>
@@ -390,12 +391,11 @@
       *:Campo obligatorio.
      </h5>
   <div class="botones">
-    <a href="./Pages.html/alta.html" class="buy"><button type="button" class="boton1"> Iniciar afiliación</button></a>
+    <a  class="afiliarse"><input type="submit" class="boton1" onclick= 'return afiliarse();' value="Afiliarse"></a>
     
-    <a href="./Pages.html/alta.html" class="buy"><button type="button" class="boton2"> Restablecer</button></a>
-   
-    
+    <a class="buy"><input type="reset" class="boton2" value="Restablecer"></a> 
   </div>
-    
+  <div class="error" id="error"></div>
+    <script src="./Js/index.js"></script> 
 </body>
 </html>
