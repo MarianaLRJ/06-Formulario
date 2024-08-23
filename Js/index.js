@@ -27,7 +27,7 @@ error.innerHTML= mensajeError.join(', ')
 
 
 
-
+/*modo oscuro-modo claro*/
 const modoClaro = () => {
     console.log("Activamos el modo claro");
 
@@ -41,9 +41,11 @@ const modoClaro = () => {
 
 
     boton.innerHTML = "Cambiar a modo oscuro";
-
-
 }
+
+
+
+/* Boton recordar: muestra datos del formulario*/
 const formulario = document.querySelector("#formulario");
 formulario.addEventListener( "submit", validarFormulario )
 
@@ -54,8 +56,15 @@ function validarFormulario(e){
     const documento = document.querySelector("#documento").value
 
     const respuesta = document.getElementById("respuesta");
-    respuesta.textContent = `Hola ${nombre}, chequea tus datos! TU APELLIDO ES: ${apellido} TU DOCUMENTO ES: ${documento}`
+    respuesta.textContent = `${nombre}, chequea tus datos! TU APELLIDO ES: ${apellido} TU DOCUMENTO ES: ${documento} ¿es correcto?`
 }
 
 let dado = Number((Math.random() * 6).toFixed(0));
 console.log(dado)
+
+
+
+/*resetear formulario*/
+function reset(){
+    document.getElementById("formulario").reset();
+}
