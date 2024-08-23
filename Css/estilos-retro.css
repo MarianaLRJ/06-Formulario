@@ -255,6 +255,20 @@ h5{
     text-align: right;
   }
 
+.btn brn-primary mt-2{
+    margin-left: 20px;
+    background-color: #C3C19D;
+    border: 2px double #000;
+    color: #000;
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-transform: uppercase;
+    box-shadow: 4px 4px 0px #888;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
 hr{
     border: none;
     height: 0;
